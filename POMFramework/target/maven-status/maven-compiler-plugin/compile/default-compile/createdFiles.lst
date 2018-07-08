@@ -1,0 +1,9 @@
+com\vTiger\Pages\NewLeads.class
+com\vTiger\Pages\Leads.class
+com\vTiger\TestCases\verifyLoginTestCases.class
+com\vTiger\Common\commonFunctions.class
+com\vTiger\Pages\LoginPage.class
+com\vTiger\Pages\HeaderPage.class
+com\vTiger\TestCases\BaseTest.class
+com\vTiger\Pages\HomePage.class
+com\vTiger\TestCases\E2ELeadFunctionality.class

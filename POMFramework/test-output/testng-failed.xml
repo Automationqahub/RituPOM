@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="com.vTiger.TestCases.verifyLoginTestCases">
+        <methods>
+          <include name="verifyInvalidLogin"/>
+          <include name="closeApp"/>
+          <include name="verifyloginUIElements"/>
+          <include name="verifyValidLogin"/>
+          <include name="lauchApp"/>
+        </methods>
+      </class> <!-- com.vTiger.TestCases.verifyLoginTestCases -->
+      <class name="com.vTiger.TestCases.E2ELeadFunctionality">
+        <methods>
+          <include name="lauchApp"/>
+          <include name="closeApp"/>
+          <include name="verifyE2ELeads"/>
+        </methods>
+      </class> <!-- com.vTiger.TestCases.E2ELeadFunctionality -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

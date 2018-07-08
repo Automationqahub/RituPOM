@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="24613" started-at="2018-07-08T11:40:14Z" finished-at="2018-07-08T11:40:39Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="24613" started-at="2018-07-08T11:40:14Z" finished-at="2018-07-08T11:40:39Z">
+      <class name="com.vTiger.TestCases.E2ELeadFunctionality">
+        <test-method status="PASS" signature="lauchApp()[pri:0, instance:com.vTiger.TestCases.E2ELeadFunctionality@1684286]" name="lauchApp" is-config="true" duration-ms="3146" started-at="2018-07-08T17:10:23Z" finished-at="2018-07-08T17:10:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lauchApp -->
+        <test-method status="PASS" signature="verifyE2ELeads()[pri:0, instance:com.vTiger.TestCases.E2ELeadFunctionality@1684286]" name="verifyE2ELeads" duration-ms="11402" started-at="2018-07-08T17:10:26Z" finished-at="2018-07-08T17:10:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyE2ELeads -->
+        <test-method status="PASS" signature="closeApp()[pri:0, instance:com.vTiger.TestCases.E2ELeadFunctionality@1684286]" name="closeApp" is-config="true" duration-ms="911" started-at="2018-07-08T17:10:38Z" finished-at="2018-07-08T17:10:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- com.vTiger.TestCases.E2ELeadFunctionality -->
+      <class name="com.vTiger.TestCases.verifyLoginTestCases">
+        <test-method status="PASS" signature="lauchApp()[pri:0, instance:com.vTiger.TestCases.verifyLoginTestCases@1251891]" name="lauchApp" is-config="true" duration-ms="4538" started-at="2018-07-08T17:10:14Z" finished-at="2018-07-08T17:10:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lauchApp -->
+        <test-method status="PASS" signature="verifyInvalidLogin()[pri:0, instance:com.vTiger.TestCases.verifyLoginTestCases@1251891]" name="verifyInvalidLogin" duration-ms="1075" started-at="2018-07-08T17:10:18Z" finished-at="2018-07-08T17:10:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyInvalidLogin -->
+        <test-method status="PASS" signature="verifyloginUIElements()[pri:0, instance:com.vTiger.TestCases.verifyLoginTestCases@1251891]" name="verifyloginUIElements" duration-ms="45" started-at="2018-07-08T17:10:20Z" finished-at="2018-07-08T17:10:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyloginUIElements -->
+        <test-method status="PASS" signature="verifyValidLogin()[pri:0, instance:com.vTiger.TestCases.verifyLoginTestCases@1251891]" name="verifyValidLogin" duration-ms="2616" started-at="2018-07-08T17:10:20Z" depends-on-methods="com.vTiger.TestCases.verifyLoginTestCases.verifyInvalidLogin" finished-at="2018-07-08T17:10:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyValidLogin -->
+        <test-method status="PASS" signature="closeApp()[pri:0, instance:com.vTiger.TestCases.verifyLoginTestCases@1251891]" name="closeApp" is-config="true" duration-ms="860" started-at="2018-07-08T17:10:22Z" finished-at="2018-07-08T17:10:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- com.vTiger.TestCases.verifyLoginTestCases -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
