@@ -21,7 +21,7 @@ public class BaseTest {
 	public void createReport()
 	{
 		report=commonFunctions.setupResult();
-		System.out.println("Hello Ritu!");
+		System.out.println("Hello Anu");
 		
 	}
 	
